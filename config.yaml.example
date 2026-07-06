@@ -1,0 +1,36 @@
+# 闲鱼NS卡带价格爬虫 - 配置文件示例
+# 复制此文件为 config.yaml 并修改实际值
+# cp config.yaml.example config.yaml
+
+# 数据库配置
+database:
+  host: "127.0.0.1"
+  port: 3306
+  user: "root"
+  password: "your_password_here"
+  database: "yudao-mall"
+
+# 爬虫配置
+scraper:
+  max_items_per_game: 200
+  max_detail_pages: 0
+  days: 0
+  search_template: "switch 卡带 {name}"
+
+# 价格算法配置
+pricing:
+  bucket_size: 10
+  alpha: 0.3
+  max_daily_change: 5
+  price_ceiling: true
+
+# 输出配置
+output:
+  write_excel: true
+  excel_dir: "data/output"
+  write_db: true
+
+# 定时任务配置（仅Linux有效）
+schedule:
+  daily_time: "04:00"
+  log_file: "data/cron.log"

@@ -18,14 +18,11 @@ data/screenshots/
 data/*.log
 data/*.log.*
 
-# Config with secrets
+# Config with secrets (template without secrets is committed as config.yaml.example)
 config.yaml
 
-# Config with secrets
-config.yaml
-
-# SSH server info (sensitive)
-.github/skills/ssh-manager/
+# SSH server info (sensitive) - SKILL.md is committed with sanitized info
+.github/skills/ssh-manager/.env
 
 # OS
 Thumbs.db
