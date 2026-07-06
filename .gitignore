@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+
+# Data (cookies, images, output, logs)
+data/cookies/
+data/images/
+data/output/
+data/screenshots/
+data/*.log
+data/*.log.*
+
+# Config with secrets
+config.yaml
+
+# OS
+Thumbs.db
+.DS_Store
