@@ -21,6 +21,12 @@ data/*.log.*
 # Config with secrets
 config.yaml
 
+# Config with secrets
+config.yaml
+
+# SSH server info (sensitive)
+.github/skills/ssh-manager/
+
 # OS
 Thumbs.db
 .DS_Store
