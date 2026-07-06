@@ -1,0 +1,92 @@
+# NS卡带游戏清单配置
+# =====================================================
+# 可自由添加、修改、删除游戏条目
+#
+# 字段说明:
+#   name:           游戏名称（显示用）
+#   search_keyword: 闲鱼搜索关键词（建议简洁，用游戏名+卡带）
+#   version:        版本标识（用于区分不同版本，如 卡带/数字版/不同区服）
+#
+# 注意：闲鱼搜索是宽泛匹配，数字版/MOD等会被程序自动过滤
+# =====================================================
+
+games:
+  - name: "塞尔达传说：王国之泪"
+    search_keyword: "switch 卡带 实体 塞尔达传说 王国之泪"
+    version: "卡带"
+
+  - name: "塞尔达传说：旷野之息"
+    search_keyword: "switch 卡带 实体 塞尔达传说 旷野之息"
+    version: "卡带"
+
+  - name: "马力欧卡丁车8豪华版"
+    search_keyword: "switch 卡带 马里奥赛车8 豪华版"
+    version: "卡带"
+
+  - name: "超级马力欧奥德赛"
+    search_keyword: "switch 卡带 实体 马里奥奥德赛"
+    version: "卡带"
+
+  - name: "集合啦！动物森友会"
+    search_keyword: "switch 卡带 实体 动物森友会"
+    version: "卡带"
+
+  - name: "任天堂明星大乱斗 特别版"
+    search_keyword: "switch 卡带 实体 任天堂明星大乱斗"
+    version: "卡带"
+
+  - name: "宝可梦 朱"
+    search_keyword: "switch 卡带 实体 宝可梦朱"
+    version: "卡带"
+
+  - name: "宝可梦 紫"
+    search_keyword: "switch 卡带 实体 宝可梦紫"
+    version: "卡带"
+
+  - name: "宝可梦 剑"
+    search_keyword: "switch 卡带 实体 宝可梦剑"
+    version: "卡带"
+
+  - name: "宝可梦 盾"
+    search_keyword: "switch 卡带 实体 宝可梦盾"
+    version: "卡带"
+
+  - name: "异度神剑3"
+    search_keyword: "switch 卡带 实体 异度神剑3"
+    version: "卡带"
+
+  - name: "异度神剑2"
+    search_keyword: "switch 卡带 实体 异度神剑2"
+    version: "卡带"
+
+  - name: "火焰纹章 风花雪月"
+    search_keyword: "switch 卡带 实体 火焰纹章 风花雪月"
+    version: "卡带"
+
+  - name: "火焰纹章 Engage"
+    search_keyword: "switch 卡带 实体 火焰纹章 Engage"
+    version: "卡带"
+
+  - name: "斯普拉遁3 (Splatoon 3)"
+    search_keyword: "switch 卡带 实体 喷射战士3"
+    version: "卡带"
+
+  - name: "超级马力欧3D世界+狂怒世界"
+    search_keyword: "switch 卡带 实体 马里奥3D世界"
+    version: "卡带"
+
+  - name: "塞尔达传说 织梦岛"
+    search_keyword: "switch 卡带 实体 塞尔达 织梦岛"
+    version: "卡带"
+
+  - name: "勇者斗恶龙XI S"
+    search_keyword: "switch 卡带 实体 勇者斗恶龙11"
+    version: "卡带"
+
+  - name: "哈迪斯"
+    search_keyword: "switch 卡带 实体 哈迪斯"
+    version: "卡带"
+
+  - name: "暗黑破坏神3 永恒合集"
+    search_keyword: "switch 卡带 实体 暗黑破坏神3"
+    version: "卡带"

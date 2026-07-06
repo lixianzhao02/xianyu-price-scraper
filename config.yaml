@@ -1,0 +1,48 @@
+# 闲鱼NS卡带价格爬虫 - 配置文件
+# 修改后重启程序生效
+
+# 数据库配置
+database:
+  host: "127.0.0.1"
+  port: 3306
+  user: "root"
+  password: "Li374382471..."
+  database: "yudao-mall"
+
+# 爬虫配置
+scraper:
+  # 每个游戏最多抓取的原始商品数量（过滤后确保100+有效样本）
+  max_items_per_game: 200
+  # 是否抓取详情页（0=不抓）
+  max_detail_pages: 0
+  # 只搜最近N天内发布的商品（0=不限时间）
+  days: 0
+  # 搜索关键词模板 {name} 会被替换为游戏名
+  search_template: "switch 卡带 {name}"
+
+# 价格算法配置
+pricing:
+  # 价格分桶大小（元）
+  bucket_size: 10
+  # 价格稳定器 - 今天价格权重（0.3 = 今天占30%，历史占70%）
+  alpha: 0.3
+  # 价格稳定器 - 每天最大波动（元）
+  max_daily_change: 5
+  # 1元向上取整
+  price_ceiling: true
+
+# 输出配置
+output:
+  # 是否写入Excel（--no-excel 可覆盖）
+  write_excel: true
+  # Excel输出目录
+  excel_dir: "data/output"
+  # 是否写入数据库（--from-db 时自动启用）
+  write_db: true
+
+# 定时任务配置（仅Linux有效）
+schedule:
+  # 每日执行时间（24小时制）
+  daily_time: "04:00"
+  # 日志文件路径
+  log_file: "data/cron.log"
